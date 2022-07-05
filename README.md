@@ -1,12 +1,22 @@
+//
+
+
 package ru.ac.uniyar.mf.potsel.sum;
+
 import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
+    
         //boolean flag = false;
         System.out.println("Введите первое число:");
+        
         Scanner in = new Scanner(System.in);
+        
         String str1 = in.next();
+        
         int ind = str1.indexOf('/');
+        
         if (ind == -1) {
             int x = Integer.parseInt(str1);
             //String s = in.next();
